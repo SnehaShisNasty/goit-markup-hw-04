@@ -108,10 +108,10 @@ img {
   margin: auto;
   gap: 40px;
   margin-right: auto;
+  position: relative;
 }
 .nav_item {
   margin-right: auto;
-  position: relative;
 }
 .nav_link {
   font-size: 16px;
@@ -123,12 +123,13 @@ img {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .current {
   color: #404bbf;
 }
 .current::after {
-  margin-bottom: 20px;
+  margin-top: 20px;
   position: absolute;
   left: 0;
   bottom: -1px;
@@ -154,12 +155,12 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address_link:hover,
 .address_link:active,
 .address_link:focus {
   color: #404bbf;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero {
