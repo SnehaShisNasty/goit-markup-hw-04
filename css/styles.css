@@ -353,17 +353,17 @@ img {
   align-items: center;
   justify-content: center;
   padding: 16px 32px;
+  color: #404bbf;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .customer-section .icon:hover,
-.customer-section .icon:focus,
-.customer-section .icon:active {
-  fill: #404bbf;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+.customer-section .icon:focus {
+  fill: currentColor;
 }
 .customer-section .customer_link:hover,
 .customer-section .customer_link:focus {
   border: 1px solid #404bbf;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  color: #404bbf;
 }
 .footer {
   background-color: var(--footerbackground);
