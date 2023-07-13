@@ -398,14 +398,16 @@ img {
 }
 .flex-box {
   display: flex;
-  gap: 120px;
+  align-self: baseline;
 }
 .footer_soc-list {
   display: flex;
   gap: 16px;
   justify-content: center;
 }
-
+.footer_soc-item {
+  margin-bottom: 120px;
+}
 .footer_soc-link {
   width: 40px;
   height: 40px;
