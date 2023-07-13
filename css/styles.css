@@ -410,6 +410,7 @@ img {
   display: flex;
   gap: 16px;
   justify-content: center;
+  align-self: baseline;
 }
 .footer_soc-link {
   width: 40px;
