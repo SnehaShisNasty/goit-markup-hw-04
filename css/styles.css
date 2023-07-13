@@ -323,7 +323,7 @@ img {
 }
 .team-section .card_soc-link:hover,
 .team-section .card_soc-link:focus {
-  background-color: #0d1ed6;
+  background-color: #404bbf;
 }
 .team-section .icon {
   fill: #f4f4fd;
@@ -343,6 +343,7 @@ img {
   width: calc((100% - 5 * 24px) / 6);
 }
 .customer-section .card {
+  height: 88px;
 }
 .customer_link {
   width: 100%;
