@@ -398,10 +398,10 @@ img {
 }
 .flex-box {
   display: flex;
+  align-self: baseline;
 }
 .footer-box {
   margin-right: 120px;
-  align-self: baseline;
 }
 .footer_soc-list {
   display: flex;
@@ -418,6 +418,7 @@ img {
   display: flex;
   align-items: center;
   color: #f4f4fd;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer_soc-link:hover,
 .footer_soc-link:focus {
