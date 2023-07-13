@@ -400,6 +400,9 @@ img {
   display: flex;
   align-self: baseline;
 }
+.footer {
+  align-items: baseline;
+}
 .footer-box {
   margin-right: 120px;
 }
