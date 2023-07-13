@@ -309,24 +309,27 @@ img {
 .team-section .card_soc-list {
   display: flex;
   gap: 24px;
+  justify-content: center;
 }
-.team-section .soc-list_link {
+.team-section .card_soc-link {
   width: 40px;
   height: 40px;
   background-color: #4d5ae5;
   padding: 12px;
   border-radius: 50%;
   justify-content: center;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: flex;
+  align-items: center;
 }
-.team-section .soc-list_link:hover,
-.team-section .soc-list_link:focus,
-.team-section .soc-list_link:active {
-  background-color: #404bbf;
+.team-section .card_soc-link:hover,
+.team-section .card_soc-link:focus,
+.team-section .card_soc-link:active {
+  background-color: #0d1ed6;
 }
 .team-section .icon {
   fill: #f4f4fd;
 }
+
 .customer-section {
   padding: 120px 0px;
 }
