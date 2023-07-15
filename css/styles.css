@@ -377,6 +377,8 @@ img {
 .footer {
   background-color: var(--footerbackground);
   padding: 100px 0px;
+  align-items: baseline;
+  display: flex;
 }
 .footer .logo {
   display: inline-block;
@@ -405,7 +407,6 @@ img {
   align-self: baseline;
 }
 .footer {
-  align-items: baseline;
 }
 .footer-box {
   margin-right: 120px;
