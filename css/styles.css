@@ -377,8 +377,8 @@ img {
 .footer {
   background-color: var(--footerbackground);
   padding: 100px 0px;
-  align-items: baseline;
-  display: flex;
+  /* align-items: baseline;
+  display: flex; */
 }
 .footer .logo {
   display: inline-block;
@@ -403,11 +403,10 @@ img {
   margin-bottom: 16px;
 }
 .flex-box {
-  display: flex;
-  align-self: baseline;
+  /* display: flex;
+  align-self: baseline; */
 }
-.footer {
-}
+
 .footer-box {
   margin-right: 120px;
 }
