@@ -403,8 +403,8 @@ img {
   margin-bottom: 16px;
 }
 .flex-box {
-  /* display: flex;
-  align-self: baseline; */
+  display: flex;
+  align-items: baseline;
 }
 
 .footer-box {
